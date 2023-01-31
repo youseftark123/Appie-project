@@ -1,0 +1,310 @@
+/*****
+Below 1344px
+*****/
+@media (max-width: 84em) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  header,
+  .hero-section,
+  .features-container,
+  .marketing-container,
+  .how-work,
+  .d-container,
+  .pricing-container,
+  .blue-container,
+  .sponser,
+  .footer,
+  .footer-bottom {
+    max-width: 120rem;
+  }
+
+  .vid img {
+    height: 100%;
+  }
+
+  .card1 {
+    margin-left: 0;
+  }
+
+  .pricing-cards {
+    column-gap: 3.6rem;
+  }
+}
+
+/*****
+Below 1216px
+*****/
+@media (max-width: 76em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  header,
+  .hero-section,
+  .features-container,
+  .marketing-container,
+  .how-work,
+  .d-container,
+  .pricing-container,
+  .blue-container,
+  .sponser,
+  .footer,
+  .footer-bottom {
+    max-width: 100rem;
+  }
+
+  .links {
+    margin-left: 4.8rem;
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .main-heading {
+    font-size: 4.4rem;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 3.2rem;
+  }
+
+  .text-right {
+    width: 100%;
+  }
+
+  .selector1,
+  .selector2 {
+    height: 80%;
+  }
+
+  .img-left img {
+    width: 80%;
+  }
+
+  .vid {
+    column-gap: 1.2rem;
+  }
+
+  .marketing-container {
+    height: 40rem;
+    overflow: hidden;
+  }
+
+  .explain-text {
+    margin-left: 6.3rem;
+  }
+}
+
+/*****
+Below 944px
+*****/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .hero-section {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-img {
+    width: 25%;
+    position: absolute;
+    right: 0;
+  }
+
+  .hero-text-left {
+    text-align: center;
+  }
+
+  .input-section {
+    margin: 0;
+    margin-bottom: 4.8rem;
+    justify-content: center;
+  }
+
+  .respon {
+    display: inline-block;
+  }
+
+  .faces-section {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
+
+  .hero-img-right {
+    height: 50%;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3.2rem;
+    row-gap: 3.2rem;
+  }
+
+  .features {
+    text-align: center;
+  }
+
+  .f-btn:link,
+  .f-btn:visited {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .marketing-container {
+    grid-template-columns: 1fr;
+  }
+
+  .img-left {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .text-right {
+    text-align: center;
+    grid-row: 1/-5;
+  }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .col-1,
+  .col-2 {
+    margin: 0 auto;
+  }
+
+  .features-section {
+    text-align: center;
+  }
+
+  .heading-describtion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.8rem;
+  }
+
+  .features-btn {
+    margin: 0 auto;
+    margin-top: 2.4rem;
+  }
+
+  .dark-2-col {
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 4.8rem;
+  }
+
+  .dark-img-col {
+    text-align: center;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .vid {
+    grid-template-columns: 2fr;
+    text-align: center;
+  }
+
+  .selector1 img,
+  .selector2 img {
+    object-fit: cover;
+  }
+
+  .next-back-arrows {
+    visibility: hidden;
+  }
+
+  .work-2col {
+    grid-template-columns: 2fr;
+  }
+
+  .pricing-cards {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    width: 50%;
+    row-gap: 4.8rem;
+  }
+
+  .blue-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .holder {
+    flex-direction: column;
+  }
+
+  .download-left {
+    width: 100%;
+  }
+
+  .logo-container-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo-container-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  .copyrights-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+}
